@@ -1,4 +1,4 @@
-[日本語](README.md#日本語) / [English](README.md#english)
+[日本語](#日本語) / [English](#english)
 
 # Travelers Split Public
 
