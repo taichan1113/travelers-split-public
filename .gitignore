@@ -1,0 +1,10 @@
+*.zip
+*.gbr
+*.gbrjob
+*.pdf
+fp-info-cache
+*-backups/
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+*.bck

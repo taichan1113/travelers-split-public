@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SKRHADE010
+D Multi-Directional Switches 4-directn cntr push w/ boss 500K cycles
+K
+F https://www.mouser.fr/datasheet/2/15/SKRH-1370966.pdf
+$ENDCMP
+#
+#End Doc Library

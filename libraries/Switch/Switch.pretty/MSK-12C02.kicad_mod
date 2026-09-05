@@ -1,0 +1,224 @@
+(footprint "MSK-12C02"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.73 0)
+		(layer "F.SilkS")
+		(uuid "91e3b9a1-b5a4-4b47-a932-516f2c99e5b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MSK-12C02"
+		(at 0 6.37 0)
+		(layer "F.Fab")
+		(uuid "d2074162-9707-46ab-8763-053f0d5a0d2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fc9ca40-6ed4-478c-8080-0ad00af59969")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ceacef15-5d48-4b54-bcbe-3e5295e4c361")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.3 0)
+		(end -3.3 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c50f0e97-c0b1-4d96-aa90-ed1088199264")
+	)
+	(fp_line
+		(start -3.3 0)
+		(end 3.3 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c9778b58-919a-4816-af70-90c408d073f5")
+	)
+	(fp_line
+		(start -3.3 2.7)
+		(end 3.3 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "20f36aef-4d4e-4715-922d-ae8aa26a55b0")
+	)
+	(fp_line
+		(start 0.2 -1.5)
+		(end 0.2 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "82c29475-7a7e-4eee-b8c8-f1eff6c5fd8e")
+	)
+	(fp_line
+		(start 0.2 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "60196275-a02d-425f-9c91-52ae866c74f1")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0ee153cd-30e5-4a6d-ad71-0a673abbe818")
+	)
+	(fp_line
+		(start 3.3 0)
+		(end 3.3 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "26a8f3dd-f35f-48a1-ac22-3cfd40aac55f")
+	)
+	(fp_text user "ON"
+		(at -2.25 4.77 0)
+		(layer "F.SilkS")
+		(uuid "6491e99f-1363-488c-842c-fcd8e1342260")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OFF"
+		(at 2.25 4.77 0)
+		(layer "F.SilkS")
+		(uuid "fd754a44-a7ca-4e35-aac9-614ad686111e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "REF**"
+		(at 0 1.27 0)
+		(layer "F.Fab")
+		(uuid "b1158706-0012-44cb-8f20-49c26f701c57")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at -3.65 0.16)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e546f344-db29-4236-b125-2a07c5b5ae7a")
+	)
+	(pad "" smd rect
+		(at -3.65 2.38)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a039e9c7-9632-4d12-8c7a-b38b2bcdf7d7")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.5 1.27)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "3b4bd48a-cf28-48ea-9ae2-0384efc2121f")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.5 1.27)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "265e5f01-323f-45bb-934c-dd4a07f6772b")
+	)
+	(pad "" smd rect
+		(at 3.65 0.16)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "91b0adaf-f914-4850-a015-8180d36cb701")
+	)
+	(pad "" smd rect
+		(at 3.65 2.38)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "38a8e0ba-f256-465b-ab2f-a97b369ccddb")
+	)
+	(pad "1" smd rect
+		(at 2.25 3.03)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eb76734a-c14c-4915-ba4e-121b63f6b37b")
+	)
+	(pad "2" smd rect
+		(at -0.75 3.03)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f7136298-62f6-468b-97bf-25650ebf6d9d")
+	)
+	(pad "3" smd rect
+		(at -2.25 3.03)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5b612b97-99e4-4d9a-9657-f4c2bccfa97b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_MODERNE_3D}/MSK12C02--3DModel-STEP-269445-Rev.STEP"
+		(offset
+			(xyz 0 -1.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

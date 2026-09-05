@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC,Quantity
+1uF X5R,"C2,C4",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C19702,2
+5.1k,"R6,R7",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23186,2
+TLV75533PDBV,U1,SOT-23-5,C404027,1
+USBLC6-2SC6,D7,SOT-23-6,C7519,1

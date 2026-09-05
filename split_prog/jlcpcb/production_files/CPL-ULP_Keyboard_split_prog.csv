@@ -1,0 +1,7 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C2,1uF X5R,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,30.9375,-30.421875,-90.0,top
+C4,1uF X5R,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,23.71875,-30.421875,-90.0,top
+D7,USBLC6-2SC6,SOT-23-6,27.328125,-26.8125,180.0,top
+R6,5.1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,23.71875,-26.8125,90.0,top
+R7,5.1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,30.9375,-26.8125,90.0,top
+U1,TLV75533PDBV,SOT-23-5,27.328125,-30.421875,180.0,top
